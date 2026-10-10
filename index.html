@@ -35,9 +35,16 @@
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
         // Your web app's Firebase configuration
+        // 👇👇👇 REPLACE THE VALUES BELOW WITH YOUR OWN FROM FIREBASE CONSOLE 👇👇👇
         const firebaseConfig = {
-            // PASTE YOUR CONFIGURATION HERE
+            apiKey: "AIzaSyB7LwM1oNVjfjs2fgdd9OOASBqkDm7DkK0",
+            authDomain: "ticket-d2f30.firebaseapp.com",
+            projectId: "ticket-d2f30",
+            storageBucket: "ticket-d2f30.firebasestorage.app",
+            messagingSenderId: "225223962663",
+            appId: "1:225223962663:web:4e8e118ede45defaf61e02"
         };
+        // 👆👆👆 REPLACE THE VALUES ABOVE WITH YOUR OWN FROM FIREBASE CONSOLE 👆👆👆
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
